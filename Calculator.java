@@ -49,6 +49,52 @@ public class Calculator {
         clearButton.setBounds(0,125,50,50);
         percButton.setBounds(100,125,50,50);
 
+        oneButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "1");
+            }
+        });
+        twoButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "2");
+            }
+        });
+        threeButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "3");
+            }
+        });
+        fourButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "4");
+            }
+        });
+        fiveButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "5");
+            }
+        });
+        sixButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "6");
+            }
+        });
+        sevenButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "7");
+            }
+        });
+        eightButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "8");
+            }
+        });
+        nineButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                display.setText(display.getText() + "9");
+            }
+        });
+
         f.add(eqButton);
         f.add(addButton);
         f.add(subButton);
